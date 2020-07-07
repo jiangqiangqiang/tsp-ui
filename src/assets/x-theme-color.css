@@ -1,0 +1,9 @@
+/* 已废弃在App.vue中设置 */
+:root {
+  --mainColor: #118eea;
+  --mainLightColor: #f2f9ff;
+  --mainBtnDisabled: #a0cfff;
+  --mainTableBg: #f2f9ff;
+  --mainTableHover: #c0e2fa;
+  --mainBtnHover: #66b1ff
+}

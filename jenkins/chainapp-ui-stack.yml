@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  ui:
+    image: "${UI_IMAGE}"
+    labels:
+      service.name: epuchain-ui
+      group: epuchain-ui
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+#    configs:
+#      - source: chain_app_ui_epuchain_com.conf
+#        target: /etc/nginx/conf.d/ui.epuchain.com.conf
+    ports:
+      - "${PUBLISH_PORT}:80"
+    networks:
+      - app_net
+
+networks:
+  app_net:
+
+#configs:
+#  chain_app_ui_epuchain_com.conf:
+#    file: ./dist/ui/nginx.conf.d/ui.epuchain.com.conf

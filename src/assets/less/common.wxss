@@ -1,0 +1,228 @@
+/* 全局样式需以 sy-global* 的形式 */
+#app {
+  font-family: "Helvetica Neue", 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+.sy-global-pull-right {
+  float: right;
+}
+.sy-global--Pagination--bg {
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #f5f5f5;
+  height: .8rem;
+}
+/*表格文字居中及表头背景颜色*/
+.sy-global-has-gutter__th--text-center .has-gutter tr th {
+  text-align: center;
+  background: #fcfcfc !important;
+}
+.sy-global-has-gutter__th--text-center .el-table__body {
+  text-align: center;
+}
+.sy-global__div--Pagination {
+  margin: .1rem .5rem 0 0;
+  /*去掉页码底色*/
+  /*.el-pagination button:disabled {
+    background: none;
+  }
+  .el-pager li {
+    background: none;
+  }*/
+}
+.sy-global__div--Pagination .el-pagination__editor.el-input .el-input__inner {
+  box-shadow: none;
+}
+.sy-global-cursor--pointer {
+  cursor: pointer;
+}
+/*表格边框*/
+.sy-global-el-table-fit--border {
+  border: 1px solid #e4e4e4;
+}
+.yp-logo {
+  margin-bottom: 81px;
+  font-size: 30px;
+  color: #118eea;
+  color: var(--mainColor);
+  text-align: center;
+  line-height: 0;
+}
+.yp-logo p {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 3px;
+}
+.yp-logo span {
+  color: #b8b8b8;
+  font-size: 14px;
+}
+.alert-success--across {
+  width: 570px;
+  height: 300px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin-left: 200px;
+}
+.alert-success--across .el-button {
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  background: #118eea;
+  background: var(--mainColor);
+}
+.alert-success--across .el-button:first-child {
+  margin-right: 26px;
+}
+.alert-success--across .sy-global-success-ul {
+  margin: 10px;
+}
+.alert-success--across .sy-global-success-ul .sy-global-success-ul-li {
+  height: 30px;
+  line-height: 30px;
+}
+.alert-success--across .sy-global-cancel .el-button,
+.alert-success--across .sy-global-confirm .el-button {
+  background: #118eea;
+  background: var(--mainColor);
+}
+.sy-global-has-gutter__th--text-center .has-gutter tr th {
+  text-align: center;
+  background: #fcfcfc !important;
+}
+.sy-global-has-gutter__th--text-center .el-table__body {
+  text-align: center;
+}
+.cancellation-success {
+  width: 570px;
+  height: 300px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin-left: 200px;
+}
+.cancellation-success .el-message-box__header {
+  padding-top: 0px!important;
+}
+.cancellation-success .text {
+  font-size: 18px;
+}
+.cancellation-success .cancellation {
+  margin-top: 20px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+.cancellation-success .el-button {
+  margin-top: 30px;
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #118eea;
+  background-color: var(--mainColor);
+}
+.alert-success {
+  width: 570px;
+  height: 300px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin-left: 200px;
+}
+.alert-success .el-button {
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #118eea;
+  background-color: var(--mainColor);
+}
+.alert-success .sy-global-success-ul {
+  margin: 10px;
+}
+.alert-success .sy-global-success-ul .sy-global-success-ul-li {
+  height: 30px;
+  line-height: 30px;
+}
+.alert-success .sy-global-has-gutter__th--text-center .has-gutter tr th {
+  text-align: center;
+  background: #fcfcfc !important;
+}
+.alert-success .sy-global-has-gutter__th--text-center .el-table__body {
+  text-align: center;
+}
+.sy-global-success-text i {
+  display: block;
+  font-size: 66px;
+  line-height: 100px;
+  color: #78bf3e;
+}
+.sy-global-success-text span {
+  display: inline-block;
+  max-width: 500px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+.proceeds-success {
+  width: 470px;
+  height: 200px;
+}
+.proceeds-success .sy-global-success-text {
+  font-size: 16px;
+}
+.proceeds-success .sy-global-success-name {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.proceeds-success .el-button {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #118eea;
+  background-color: var(--mainColor);
+  margin-top: 30px;
+}
+.proceeds-success .el-button:first-child {
+  margin-right: 26px;
+}
+.confirm-dialog {
+  width: 570px;
+  height: 300px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin-left: 200px;
+}
+.confirm-dialog .dialog-success-text span {
+  display: block;
+  font-size: 19px;
+  margin: 59px 0;
+}
+.confirm-dialog .el-button {
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #118eea;
+  background-color: var(--mainColor);
+}
+.confirm-dialog .el-message-box__btns button:nth-child(2) {
+  margin-left: 26px;
+  background: #ffffff;
+  border: 1px solid #118eea;
+  border: 1px solid var(--mainColor);
+  color: #118eea;
+  color: var(--mainColor);
+}

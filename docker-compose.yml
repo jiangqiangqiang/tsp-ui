@@ -1,0 +1,14 @@
+version: "3.6"
+
+services:
+  tsp-ui:
+    image: tsp-ui
+    container_name: tsp-ui
+    restart: "no"
+    networks:
+      main_network:
+
+networks:
+  main_network:
+    name: main_network
+    external: true
